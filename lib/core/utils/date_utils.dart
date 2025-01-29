@@ -1,10 +1,10 @@
 class DateUtilsHelper {
   static List<String> getWeekDays() {
-    return ["ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ", "ВС"];
+    return const ["ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ", "ВС"];
   }
 
   static List<String> getMonthList() {
-    return [
+    return const [
       "Январь",
       "Февраль",
       "Март",

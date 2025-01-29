@@ -1,6 +1,6 @@
 class MoodUtilsHelper {
   List<String> getEmotionsList() {
-    return [
+    return const [
       'Радость',
       'Страх',
       'Бешенство',
@@ -11,7 +11,7 @@ class MoodUtilsHelper {
   }
 
   List<String> getImagePath() {
-    return [
+    return const [
       "joy",
       "fear",
       "fury",
@@ -22,7 +22,7 @@ class MoodUtilsHelper {
   }
 
   List<String> getFeelingsList() {
-    return [
+    return const [
       'Возбуждение',
       'Восторг',
       'Игривость',
